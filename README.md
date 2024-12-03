@@ -24,11 +24,11 @@ The objective of this project is to develop an ML model that can instantly show 
 
 Dependincies：<br>
 
-pip install karateclub
-pip install node2vec
-pip install dgl
-pip install networkx==2.8.4
-pip install adjustText
+pip install karateclub<br>
+pip install node2vec<br>
+pip install dgl<br>
+pip install networkx==2.8.4<br>
+pip install adjustText<br>
 
 ## Acknowledgements
 
