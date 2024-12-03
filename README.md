@@ -22,19 +22,13 @@ The objective of this project is to develop an ML model that can instantly show 
 
 ## Installation
 
-This project has three main step: data processing, model training and explainer training.<br>
+Dependincies：<br>
 
-Environment Configuration：<br>
-
-CUDA Version: 12.5 <br>
-Python 3.10 <br>
-opencv-python             4.10.0.84<br>
-openpyxl                  3.1.2<br>
-openvino                  2024.4.0<br>
-tensorflow                2.6.0<br>
-tensorflow-estimator      2.6.0<br>
-torch                     2.4.0<br>
-torch_geometric           2.5.3<br>
+pip install karateclub
+pip install node2vec
+pip install dgl
+pip install networkx==2.8.4
+pip install adjustText
 
 ## Acknowledgements
 
