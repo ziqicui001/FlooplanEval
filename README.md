@@ -14,7 +14,7 @@
 
 ## Introduction
 
-SyncPerception (SP) is a Grasshopper plugin for Grasshopper based on GNN model training. It can predict citizens' perception scores in six dimensions of beauty, safety, vitality, affluence, boredom, and depression in real time, simulating human visual perception of urban scenes. It proposes a dynamic method to incorporate citizens' perspectives into urban planning, providing a practical solution for promoting inclusive and people-oriented urban development.
+The objective of this project is to develop an ML model that can instantly show floor plan performance metrics “Efficiency and quality” during the design process to help the designer in tackling the design problem.
 
 ## Overview
 
@@ -22,8 +22,19 @@ SyncPerception (SP) is a Grasshopper plugin for Grasshopper based on GNN model t
 
 ## Installation
 
-Put the ".gha" file inside plugin folder into your grasshopper component library.<br>
-In SyncPerception_MainCode folder, you can find the source code about the plugin development.
+This project has three main step: data processing, model training and explainer training.<br>
+
+Environment Configuration：<br>
+
+CUDA Version: 12.5 <br>
+Python 3.10 <br>
+opencv-python             4.10.0.84<br>
+openpyxl                  3.1.2<br>
+openvino                  2024.4.0<br>
+tensorflow                2.6.0<br>
+tensorflow-estimator      2.6.0<br>
+torch                     2.4.0<br>
+torch_geometric           2.5.3<br>
 
 ## Acknowledgements
 
